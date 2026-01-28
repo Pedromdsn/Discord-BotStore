@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PA Hub: Discord Bot Showcase
 
-## Getting Started
+A modern, high-fidelity landing page built with Next.js (App Router), Tailwind CSS, and Framer Motion. It serves as a premium showcase for specialized Discord bot software, engineered for performance, security, and community engagement.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Modern UI/UX:** Sleek ultra-dark theme, glassmorphism effects, and smooth animations.
+- **Mobile-First Design:** Fully responsive across all devices.
+- **Dedicated Bot Pages:** Static pages for each of the 6 bots, detailing features and showcasing Discord interactions.
+- **High-Fidelity Previews:** Realistic Discord embeds demonstrating bot functionalities.
+- **Performance Optimized:** Built with Bun and Next.js for rapid loading and rendering.
+- **Community-Focused Bots:** Covers support, security, gaming, automation, and RPGs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
+- Bun runtime installed.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Installation
+1. Clone the repository (if not already present):
+   
+2. Install dependencies using Bun:
+   
 
-## Learn More
+### Running the Development Server
 
-To learn more about Next.js, take a look at the following resources:
+This will start the development server, typically accessible at  or  on your local network.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Building for Production
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This command compiles the application for production deployment.
 
-## Deploy on Vercel
+## 📁 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ****: Contains Next.js App Router structure.
+  - : The main landing page.
+  - : Dynamic routes for individual bot pages (now static).
+- ****: Reusable UI components (Navbar, Footer, ProjectCard, DiscordEmbed).
+- ****: Bot data and configuration.
+- ****: Static assets like images.
+- ****: Tailwind CSS configuration.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*This README describes the showcase website project.*
