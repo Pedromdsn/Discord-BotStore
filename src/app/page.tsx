@@ -41,7 +41,7 @@ export default function Home() {
           <div className='grid md:grid-cols-3 gap-8'>
             {[
               { step: '01', title: 'Choose Your Bot', desc: 'Browse our specialized collection and find the perfect match for your community.' },
-              { step: '02', title: 'Get Documentation', desc: 'Access detailed setup guides and technical specifications for seamless integration.' },
+              { step: '02', title: 'Custom Programming', desc: 'Explain what you want to achieve and I will handle the entire development and programming process for you.' },
               { step: '03', title: 'Instant Deployment', desc: 'Run your new bot on your infrastructure with our optimized startup sequences.' }
             ].map((s, i) => (
               <div key={i} className='relative p-8 glass rounded-3xl'>

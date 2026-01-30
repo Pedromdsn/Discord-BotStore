@@ -43,8 +43,6 @@ export default function PurchaseFlowPage() {
               <DiscordMessage user='PurchaseFlow' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=shop' roleColor='#EB459E'><DiscordEmbed title='💰 New Payment' description={<><strong>Pedromdsn</strong> bought <strong>Ultra VIP</strong>.</>} color='#57F287' fields={[{ name: 'Order ID', value: '#TX-9901', inline: true }, { name: 'Status', value: <strong>✅ Verified</strong>, inline: true }]} footer='PurchaseFlow Sync' /></DiscordMessage>
     <DiscordMessage user='PurchaseFlow' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=shop' roleColor='#EB459E'><DiscordEmbed title='✅ Role Assigned' description={<>User <strong>Pedromdsn</strong> has been given the rank.</>} color='#5865F2' /></DiscordMessage>
     <DiscordMessage user='PurchaseFlow' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=shop' roleColor='#EB459E'><DiscordEmbed title='🔄 Subscription' description='Membership renewed for User#1234.' color='#EB459E' /></DiscordMessage>
-    <DiscordMessage user='Pedromdsn' avatar='https://api.dicebear.com/7.x/avataaars/png?seed=pedro'>/invoice id:#TX-9901</DiscordMessage>
-    <DiscordMessage user='PurchaseFlow' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=shop' roleColor='#EB459E'><DiscordEmbed title='📄 Invoice' description='Invoice details sent to DMs.' color='#FEE75C' /></DiscordMessage>
             </div>
           </motion.div>
         </div>
