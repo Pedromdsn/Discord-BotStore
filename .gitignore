@@ -1,2 +1,8 @@
-node_modules\n.next\n.env*\n*.log\nbun.lockb
-\n# Local Context\ncontext.md
+node_modules
+.next
+.env*
+*.log
+bun.lockb
+
+# Local Context
+context.md

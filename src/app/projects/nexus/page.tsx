@@ -16,8 +16,8 @@ export default function NexusPage() {
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24'>
           <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }}>
             <div className='flex items-center gap-4 mb-8'>
-               <div className='p-3 rounded-2xl bg-white/5 border border-white/10'><Sparkles className='w-6 h-6 text-["#5865f2"]' /></div>
-               <span className='text-["#5865f2"] font-black text-sm uppercase tracking-[0.3em]'>Nexus Engine</span>
+               <div className='p-3 rounded-2xl bg-white/5 border border-white/10'><Sparkles className='w-6 h-6 text-[#5865f2]' /></div>
+               <span className='text-[#5865f2] font-black text-sm uppercase tracking-[0.3em]'>Nexus Engine</span>
             </div>
             <h1 className='text-5xl md:text-8xl font-black text-white mb-8 tracking-tighter'>Nexus</h1>
             <p className='text-gray-400 text-xl mb-12 leading-relaxed'>Professional Support. Advanced ticket systems.</p>
@@ -40,7 +40,7 @@ export default function NexusPage() {
                 </div>
             </div>
             <div className='space-y-6 text-left'>
-              <DiscordMessage user='Nexus' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=nexus' roleColor='#5865F2'><DiscordEmbed title={<>🎫 Ticket <strong>#0042</strong></>}} description='A new support request has been opened.' color='#5865F2' fields={[{ name: 'User', value: <strong>Pedromdsn</strong>, inline: true }, { name: 'Subject', value: 'API Access', inline: true }]} footer='Nexus Support' /></DiscordMessage>
+              <DiscordMessage user='Nexus' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=nexus' roleColor='#5865F2'><DiscordEmbed title={<>🎫 Ticket <strong>#0042</strong></>} description='A new support request has been opened.' color='#5865F2' fields={[{ name: 'User', value: <strong>Pedromdsn</strong>, inline: true }, { name: 'Subject', value: 'API Access', inline: true }]} footer='Nexus Support' /></DiscordMessage>
     <DiscordMessage user='Pedromdsn' avatar='https://api.dicebear.com/7.x/avataaars/png?seed=pedro'>/rank</DiscordMessage>
     <DiscordMessage user='Nexus' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=nexus' roleColor='#5865F2'><DiscordEmbed title='📈 Level Up!' description={<>Congratulations! You reached <strong>Level 25</strong>.</>} color='#57F287' /></DiscordMessage>
     <DiscordMessage user='Nexus' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=nexus' roleColor='#5865F2'><DiscordEmbed title='🔒 Channel Secured' description='A private support channel has been created for you.' color='#5865F2' /></DiscordMessage>
