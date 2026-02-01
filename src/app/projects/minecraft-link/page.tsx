@@ -40,7 +40,7 @@ export default function MineCraftLinkPage() {
                 </div>
             </div>
             <div className='space-y-6 text-left'>
-              <DiscordMessage user='MineCraftLink' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=mc' roleColor='#57F287'><DiscordEmbed title='🎮 Server Health' description='Survival is **Online**.' fields={[{ name: 'TPS', value: <strong>20.0</strong>, inline: true }, { name: 'Players', value: '12/50', inline: true }]} color='#57F287' /></DiscordMessage>
+              <DiscordMessage user='MineCraftLink' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=mc' roleColor='#57F287'><DiscordEmbed title='🎮 Server Health' description={<>Survival is <span className="font-bold">Online</span>.</>} fields={[{ name: 'TPS', value: <strong>20.0</strong>, inline: true }, { name: 'Players', value: '12/50', inline: true }]} color='#57F287' /></DiscordMessage>
     <DiscordMessage user='Pedromdsn' avatar='https://api.dicebear.com/7.x/avataaars/png?seed=pedro'>/list</DiscordMessage>
     <DiscordMessage user='MineCraftLink' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=mc' roleColor='#57F287'><DiscordEmbed title='👥 Online Players' description={<>Steve, Alex, <strong>Pedromdsn</strong>, Notch...</>} color='#57F287' /></DiscordMessage>
     <DiscordMessage user='Pedromdsn' avatar='https://api.dicebear.com/7.x/avataaars/png?seed=pedro'>/tps</DiscordMessage>
