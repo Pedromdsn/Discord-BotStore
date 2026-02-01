@@ -44,7 +44,7 @@ export default function SentinelPage() {
     <DiscordMessage user='Sentinel' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=sentinel' roleColor='#ED4245'><DiscordEmbed title='🛡️ Fail2Ban' description={<>IP <span className="font-bold">45.2.1.8</span> has been banned.</>} color='#FEE75C' fields={[{ name: 'Jail', value: 'sshd', inline: true }, { name: 'Duration', value: '12h', inline: true }]} /></DiscordMessage>
     <DiscordMessage user='Sentinel' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=sentinel' roleColor='#ED4245'><DiscordEmbed title='⚠️ Resource Alert' description={<>CPU usage reached <span className="font-bold">92%</span> on n8n-node.</>} color='#ED4245' /></DiscordMessage>
     <DiscordMessage user='Sentinel' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=sentinel' roleColor='#ED4245'><DiscordEmbed title='✅ Backup Success' description='Daily snapshot for LXC-101 completed.' color='#57F287' fields={[{ name: 'Size', value: <span className="font-bold">1.2 GB</span>, inline: true }]} /></DiscordMessage>
-    <DiscordMessage user='Sentinel' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=sentinel' roleColor='#ED4245'><DiscordEmbed title='🔓 Fail2Ban Unban' description='IP <span className="font-bold">45.2.1.8</span> has been unbanned.' color='#5865F2' /></DiscordMessage>
+    <DiscordMessage user='Sentinel' avatar='https://api.dicebear.com/7.x/bottts/svg?seed=sentinel' roleColor='#ED4245'><DiscordEmbed title='🔓 Fail2Ban Unban' description={<>IP <span className="font-bold">45.2.1.8</span> has been unbanned.</>} color='#5865F2' /></DiscordMessage>
             </div>
           </motion.div>
         </div>
